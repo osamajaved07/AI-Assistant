@@ -8,17 +8,21 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  lottie: ^3.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+
+  icons_launcher: ^2.1.7
 flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
+    - assets/lottie/
   #   - images/a_dot_ham.jpeg
 
   # example:
