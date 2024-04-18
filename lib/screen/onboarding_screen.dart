@@ -3,6 +3,7 @@
 import 'package:ai_assistant/main.dart';
 import 'package:ai_assistant/model/onboard.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 
 import '../helper/global.dart';
@@ -61,17 +62,17 @@ class OnboardingScreen extends StatelessWidget {
               //subtitle
               SizedBox(
                 width: mq.width * .7,
-                child: Text(
-                  list[ind].subtitle,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
+                child: Text(list[ind].subtitle,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
                       fontSize: 13.5,
-                      letterSpacing: .5,)
-                      // color: Theme.of(context).lightText Color),
-                ),
+                      letterSpacing: .5,
+                    )
+                    // color: Theme.of(context).lightText Color),
+                    ),
               ),
 
-               Spacer(),
+              Spacer(),
 
               //dots
 
@@ -95,9 +96,9 @@ class OnboardingScreen extends StatelessWidget {
               CustomBtn(
                   onTap: () {
                     if (isLast) {
-                      // Get.off(() => const HomeScreen());
-                      Navigator.of(context).pushReplacement(MaterialPageRoute(
-                          builder: (_) => const HomeScreen()));
+                      Get.off(() => const HomeScreen());
+                      // Navigator.of(context).pushReplacement(MaterialPageRoute(
+                      //     builder: (_) => const HomeScreen()));
                     } else {
                       c.nextPage(
                           duration: const Duration(milliseconds: 600),
@@ -113,4 +114,5 @@ class OnboardingScreen extends StatelessWidget {
       ),
     );
   }
+  
 }

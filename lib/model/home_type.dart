@@ -14,6 +14,7 @@ extension MyHomeType on HomeType {
         HomeType.aiImage => 'AI Image Creator',
         HomeType.aiTranslator => 'Language Translator',
       };
+      
 
   //lottie
   String get lottie => switch (this) {
