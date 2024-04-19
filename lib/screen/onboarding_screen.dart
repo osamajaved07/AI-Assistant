@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 
 import '../helper/global.dart';
-import '../widgets/custom_btn.dart';
+import '../widget/custom_btn.dart';
 import 'home_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {
