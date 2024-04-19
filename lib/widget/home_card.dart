@@ -24,7 +24,7 @@ class HomeCard extends StatelessWidget {
           borderRadius: const BorderRadius.all(Radius.circular(20)),
           //for ads
           // onTap: () => AdHelper.showInterstitialAd(homeType.onTap),
-          // onTap: homeType.onTap,
+          onTap: homeType.onTap,
           child: homeType.leftAlign
               ? Row(
                   children: [
@@ -45,6 +45,7 @@ class HomeCard extends StatelessWidget {
                           fontWeight: FontWeight.w500,
                           letterSpacing: 1),
                     ),
+
 
                     const Spacer(flex: 2),
                   ],

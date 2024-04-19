@@ -1,4 +1,11 @@
+// ignore_for_file: unnecessary_import
+
+import 'package:ai_assistant/screen/feature/chatbot_feature.dart';
+import 'package:ai_assistant/screen/feature/image_feature.dart';
+import 'package:ai_assistant/screen/feature/translator_feature.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 // import 'package:get/get.dart';
 
 // import '../screen/feature/chatbot_feature.dart';
@@ -39,9 +46,9 @@ extension MyHomeType on HomeType {
 
 
   //for navigation
-  // VoidCallback get onTap => switch (this) {
-  //       // HomeType.aiChatBot => () => Get.to(() => const ChatBotFeature()),
-  //       // HomeType.aiImage => () => Get.to(() => const ImageFeature()),
-  //       // HomeType.aiTranslator => () => Get.to(() => const TranslatorFeature()),
-      // };
+  VoidCallback get onTap => switch (this) {
+        HomeType.aiChatBot => () => Get.to(() => const ChatBotFeature()),
+        HomeType.aiImage => () => Get.to(() => const ImageFeature()),
+        HomeType.aiTranslator => () => Get.to(() => const TranslatorFeature()),
+      };
 }
