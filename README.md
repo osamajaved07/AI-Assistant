@@ -1,4 +1,4 @@
-# CHAT APPLICATION
+# AI Assistant Flutter Application
 An **AI assistant**(ChatBot, Image creator and Language translator) App based on chatGPT.
 
 
