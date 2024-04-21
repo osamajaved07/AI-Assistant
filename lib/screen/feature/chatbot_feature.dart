@@ -34,6 +34,7 @@ class _ChatBotFeatureState extends State<ChatBotFeature> {
           //text input field
           Expanded(
               child: TextFormField(
+                
             controller: _c.textC,
             textAlign: TextAlign.center,
             onTapOutside: (e) => FocusScope.of(context).unfocus(),
