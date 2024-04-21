@@ -26,7 +26,7 @@ class ImageController extends GetxController {
 
   Future<void> createAIImage() async {
     if (textC.text.trim().isNotEmpty) {
-      // OpenAI.apiKey = apiKey;
+      OpenAI.apiKey = apiKey;
       status.value = Status.loading;
 
       OpenAIImageModel image = await OpenAI.instance.image.create(
