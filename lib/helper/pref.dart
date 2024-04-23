@@ -10,7 +10,6 @@ import 'package:hive_flutter/adapters.dart';
 class Pref {
   static late Box _box;
 
-
   static Future<void> initialize() async {
     //for initializing hive to use app directory
     // Hive.defaultDirectory = (await getApplicationDocumentsDirectory()).path;

@@ -8,7 +8,6 @@ import '../apis/apis.dart';
 import '../helper/my_dialog.dart';
 import 'image_controller.dart';
 
-
 class TranslateController extends GetxController {
   final textC = TextEditingController();
   final resultC = TextEditingController();
@@ -201,6 +200,7 @@ class TranslateController extends GetxController {
   //   "Chinese",
   //   "Zulu"
   // ];
+
 
   Future<void> translate() async {
     if (textC.text.trim().isNotEmpty && to.isNotEmpty) {
