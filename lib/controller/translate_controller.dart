@@ -8,6 +8,7 @@ import '../apis/apis.dart';
 import '../helper/my_dialog.dart';
 import 'image_controller.dart';
 
+
 class TranslateController extends GetxController {
   final textC = TextEditingController();
   final resultC = TextEditingController();
