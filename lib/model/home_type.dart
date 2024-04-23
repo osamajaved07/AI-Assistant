@@ -1,4 +1,4 @@
-// ignore_for_file: unnecessary_import
+// ignore_for_file: unnecessary_import, prefer_const_constructors
 
 import 'package:ai_assistant/screen/feature/chatbot_feature.dart';
 import 'package:ai_assistant/screen/feature/image_feature.dart';
@@ -25,9 +25,9 @@ extension MyHomeType on HomeType {
 
   //lottie
   String get lottie => switch (this) {
-        HomeType.aiChatBot => 'ai_hand_waving.json',
+        HomeType.aiChatBot => 'chatbot.json',
         HomeType.aiImage => 'ai_play.json',
-        HomeType.aiTranslator => 'ai_ask_me.json',
+        HomeType.aiTranslator => 'translate.json',
       };
 
   //for alignment
@@ -39,9 +39,9 @@ extension MyHomeType on HomeType {
 
   //for padding
   EdgeInsets get padding => switch (this) {
-        HomeType.aiChatBot => EdgeInsets.zero,
+        HomeType.aiChatBot => EdgeInsets.all(20),
         HomeType.aiImage => const EdgeInsets.all(20),
-        HomeType.aiTranslator => EdgeInsets.zero,
+        HomeType.aiTranslator => EdgeInsets.all(20),
       };
 
 

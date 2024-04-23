@@ -39,7 +39,7 @@
 //         elevation: 1,
 //         backgroundColor: Colors.transparent,
 //         actions: [
-          
+
 //           IconButton(
 //             padding: EdgeInsets.only(right: 10),
 //               onPressed: () {
@@ -121,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: Obx(() => Icon(
                   _isDarkMode.value
                       ? Icons.brightness_2_rounded
-                      : Icons.brightness_5_rounded,
+                      : Icons.brightness_medium_outlined,
                   size: 26)))
         ],
       ),
