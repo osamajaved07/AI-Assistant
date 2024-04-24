@@ -6,11 +6,6 @@ import 'package:ai_assistant/screen/feature/translator_feature.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-// import 'package:get/get.dart';
-
-// import '../screen/feature/chatbot_feature.dart';
-// import '../screen/feature/image_feature.dart';
-// import '../screen/feature/translator_feature.dart';
 
 enum HomeType { aiChatBot, aiImage, aiTranslator }
 

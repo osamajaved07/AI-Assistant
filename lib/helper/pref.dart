@@ -1,7 +1,6 @@
 // ignore_for_file: unused_import, unnecessary_import
 
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
