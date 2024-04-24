@@ -1,5 +1,7 @@
 # AI Assistant Flutter Application
-![Dart](https://img.shields.io/badge/dart-100%25-brightgreen)
+![Dart](https://img.shields.io/badge/Dart-100%25-brightgreen)
+<img src="https://cdn.rawgit.com/sindresorhus/Awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
+<img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=Chat%20Bot&style=style=flat&color=BC4E99" alt="Star Badge"/>
 ![Flutter](https://img.shields.io/badge/Flutter-Cross%20Platform-blue)
 
 <b>AI Chatbot, Image Generator & Language Translator App | OpenAI ChatGPT | AI Assistant | Dart 3 & Flutter 3.13 🚀 with Free OpenAI Trial </b></br>
